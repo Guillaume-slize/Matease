@@ -16,6 +16,10 @@ body {
     font-family: "Montserrat", "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+#matease{
+    font-family: "Montserrat Alternates";
+}
+
 .text-vertical-center {
     display: table-cell;
     text-align: center;
