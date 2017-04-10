@@ -17,3 +17,6 @@ body {
     background-size: cover;
     -o-background-size: cover;
 }
+#headtext{
+	font-size: 24px;
+}
