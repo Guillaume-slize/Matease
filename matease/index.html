@@ -3,93 +3,58 @@
 
 <head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="Matease">
 
-    <title>matease - Material selection made easy</title>
+	<title>matease - Material selection made easy</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- Bootstrap Core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link href="css/stylish-portfolio.css" rel="stylesheet">
+	<!-- Custom CSS -->
+	<link href="css/stylish-portfolio.css" rel="stylesheet">
 
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<!-- Custom Fonts -->
+	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+        <![endif]-->
 
-</head>
+    </head>
 
-<body>
+    <body>
 
-    <!-- Navigation -->
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
-    <nav id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-            <li class="sidebar-brand">
-                <a href="#top" onclick=$("#menu-close").click();>Start Bootstrap</a>
-            </li>
-            <li>
-                <a href="#top" onclick=$("#menu-close").click();>Home</a>
-            </li>
-            <li>
-                <a href="#about" onclick=$("#menu-close").click();>About</a>
-            </li>
-            <li>
-                <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
-            </li>
-        </ul>
-    </nav>
+    	<!-- Navigation -->
 
-    <!-- Header -->
-    <header id="top" class="header">
-        <div class="text-vertical-center">
-            <div id="matease">
-            <h1 >matease</h1>
-            </div>
-            <h3>Material selection made easy</h3>
-            <br>
-            <a href="#about" class="btn btn-dark btn-lg">Find the right material for your product</a>
-        </div>
-    </header>
+    	<!-- Header -->
+    	<header id="top" class="header">
+    		<div class="text-vertical-center">
+    			<div id="matease">
+    				<h1 >matease</h1>
+    			</div>
+    			<h3>Material selection made easy</h3>
+    			<br>
+    			<div href="#about" class="btn btn-dark  ol-md-5">We aim to make material selection easy and affordable for everyone.
+    			</br> By filling the following sheet you will have a free advice </br> on what materials you should use for your product.</div>
+    		</div>
+    	</header>
 
-    <!-- About -->
-    <section id="about" class="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>We are matease, a young start-up specialised in material selection.</h2>
-                    <p class="lead"> We aim to make material selection easy and affordable for everyone. We are in the beta phase of our project and this is our prototype. By filling the following sheet you will have a free advice on what materials you should use for your product.</p>
-                </div>
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
 
-    <!-- Callout -->
-    <aside class="callout">
-        <div class="text-vertical-center">
-            <h1>Tell us what you are building, we will tell you what material to use!</h1>
-        </div>
-    </aside>
 
-    <!-- Portfolio -->
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-           <div class="row">
+    	<!-- Callout -->
+
+
+    	<!-- Portfolio -->
+
                         <!--  <form class="form-horizontal">
 <!-- <fieldset>
 
@@ -98,219 +63,222 @@ Form Name
 
 <!-- Text input-->
 <!-- <form class="form-horizontal" id="gform" method="post" action="https://script.google.com/macros/s/AKfycbzz9qgZffQ7CUaSN8d1G9t5yaZz1v9gyiGUYJHvT3WFC2b-pizd/exec" >
-<fieldset> -->
+	<fieldset> -->
 
-<!-- Form Name -->
-<legend>Form Name</legend> 
+		<!-- Form Name -->
+		<section id="f_mat" class="f_mat">
+			<div class="container">
+			<div class="row">
+			<legend >Give us some details about your product. The more info we have, the best we can answer.</legend> 
 
-<!-- Text input-->
+			<!-- Text input-->
 
-  <form id="gform" method="POST" class="form-horizontal"
-  action="https://script.google.com/macros/s/AKfycbzz9qgZffQ7CUaSN8d1G9t5yaZz1v9gyiGUYJHvT3WFC2b-pizd/exec">
-    <!-- change the form action to your script url -->
+			<form id="gform" method="POST" class="form-horizontal"
+			action="https://script.google.com/macros/s/AKfycbzz9qgZffQ7CUaSN8d1G9t5yaZz1v9gyiGUYJHvT3WFC2b-pizd/exec">
+			<!-- change the form action to your script url -->
 
-    <fieldset class="form-group">
-     <label class="col-md-4 control-label" for="name">Name</label>  
-     <div class="col-md-5">
-      <input id="name" name="name" type="text" placeholder="" class="form-control input-md" required="">
-      </div>
-    </fieldset>
+			<fieldset class="form-group">
+				<label class="col-md-4 control-label" for="name">Name</label>  
+				<div class="col-md-5">
+					<input id="name" name="name" type="text" placeholder="" class="form-control input-md" required="">
+				</div>
+			</fieldset>
 
-    <fieldset class="form-group">
-  <label class="col-md-4 control-label" for="mail">Mail</label>  
-  <div class="col-md-4">
-      <input id="email" name="email" type="email" value=""
-      required placeholder="your.name@email.com"/>
-      <span id="email-invalid" style="visibility:hidden">
-        Must be a valid email address</span>
-  </div>
-    </fieldset>
+			<fieldset class="form-group">
+				<label class="col-md-4 control-label" for="mail">Mail</label>  
+				<div class="col-md-4">
+					<input id="email" name="email" type="email" value=""
+					required placeholder="your.name@email.com"/>
+					<span id="email-invalid" style="visibility:hidden">
+						Must be a valid email address</span>
+					</div>
+				</fieldset>
 
-   <fieldset class="form-group">
-  <label class="col-md-4 control-label" for="company">Company</label>  
-  <div class="col-md-4">
-  <input id="company" name="company" type="text" placeholder="" class="form-control input-md">
-    
-  </div>
-    </fieldset>
+				<fieldset class="form-group">
+					<label class="col-md-4 control-label" for="company">Company</label>  
+					<div class="col-md-4">
+						<input id="company" name="company" type="text" placeholder="" class="form-control input-md">
 
-        <fieldset class="form-group">
-  <label class="col-md-4 control-label" for="productuse">What is the purpose of your product? How is it gonna be used?</label>  
-  <div class="col-md-4">
-  <textarea id="productuse" name="productuse" type="text" placeholder="" class="form-control input-md" required=""></textarea>
-  </div>
-    </fieldset>
+					</div>
+				</fieldset>
 
-    <fieldset class="form-group">
-  <label class="col-md-4 control-label" for="nameproduct">Name of your product</label>  
-  <div class="col-md-4">
-  <input id="nameproduct" name="nameproduct" type="text" placeholder="" class="form-control input-md" required="">
-  </div>
-    </fieldset>
+				<fieldset class="form-group">
+					<label class="col-md-4 control-label" for="productuse">What is the purpose of your product? How is it gonna be used?</label>  
+					<div class="col-md-4">
+						<textarea id="productuse" name="productuse" type="text" placeholder="" class="form-control input-md" required=""></textarea>
+					</div>
+				</fieldset>
+
+				<fieldset class="form-group">
+					<label class="col-md-4 control-label" for="nameproduct">Name of your product</label>  
+					<div class="col-md-4">
+						<input id="nameproduct" name="nameproduct" type="text" placeholder="" class="form-control input-md" required="">
+					</div>
+				</fieldset>
 
 
-    <fieldset class="form-group">
-     <label class="col-md-4 control-label" for="product">Describe your product</label>
-  <div class="col-md-4">                     
-    <textarea class="form-control" id="product" placeholder="appearance, type, characteristics, weight" name="product"></textarea>
-  </div>
-    </fieldset>
+				<fieldset class="form-group">
+					<label class="col-md-4 control-label" for="product">Describe your product</label>
+					<div class="col-md-4">                     
+						<textarea class="form-control" id="product" placeholder="appearance, type, characteristics, weight" name="product"></textarea>
+					</div>
+				</fieldset>
 
-   <fieldset class="form-group">
- <label class="col-md-4 control-label" for="environment">Describe your environment in which your product is going to be used</label>
-  <div class="col-md-4">                     
-    <textarea class="form-control" id="environment" placeholder="temperature, pressure, contact with chemical, contact with water, contact with food, outdoor/indoor" name="environment"></textarea>
-  </div>
-    </fieldset>
-    
-
-    
-   <fieldset class="form-group">
-     <label class="col-md-4 control-label" for="length">How long should your product last?</label>  
-  <div class="col-md-4">
-  <input id="length" name="length" type="text" placeholder="" class="form-control input-md">
-    </fieldset>
-
-    <fieldset class="form-group">
-     <label class="col-md-4 control-label" for="budget">Budget</label>  
-  <div class="col-md-4">
-  <input id="budget" name="budget" type="text" placeholder="" class="form-control input-md">
-  </div>
-    </fieldset>
-
-    <fieldset class="form-group">
-     <label class="col-md-4 control-label" for="build">How do you want to build it?</label>
-  <div class="col-md-4">                     
-    <textarea class="form-control" id="build" placeholder="process, coating, finish" name="build"></textarea>
-  </div>
-    </fieldset>
-
-    <div class="form-group">
-      <div class="col-md-4 control-label">   
-       <button class="button-success pure-button button-xlarge">
-      <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
- </div>
-    </div>
+				<fieldset class="form-group">
+					<label class="col-md-4 control-label" for="environment">Describe your environment in which your product is going to be used</label>
+					<div class="col-md-4">                     
+						<textarea class="form-control" id="environment" placeholder="temperature, pressure, contact with chemical, contact with water, contact with food, outdoor/indoor" name="environment"></textarea>
+					</div>
+				</fieldset>
 
 
 
+				<fieldset class="form-group">
+					<label class="col-md-4 control-label" for="lengthproduct">How long should your product last?</label>  
+					<div class="col-md-4">
+						<input id="length" name="length" type="text" placeholder="" class="form-control input-md">
+					</fieldset>
 
-  </form>
-    <div style="display:none;" id="thankyou_message">
-    <h2><em>Thanks</em> for contacting us!
-      We will get back to you soon!</h2>
-  </div>
+					<fieldset class="form-group">
+						<label class="col-md-4 control-label" for="budget">Budget</label>  
+						<div class="col-md-4">
+							<input id="budget" name="budget" type="text" placeholder="" class="form-control input-md">
+						</div>
+					</fieldset>
 
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
+					<fieldset class="form-group">
+						<label class="col-md-4 control-label" for="build">How do you want to build it?</label>
+						<div class="col-md-4">                     
+							<textarea class="form-control" id="build" placeholder="process, coating, finish" name="build"></textarea>
+						</div>
+					</fieldset>
+
+					<div class="form-group">
+						<div class="col-md-4 control-label">   
+							<button class="button-success pure-button button-xlarge">
+								<i class="fa fa-paper-plane"></i>&nbsp;Send</button>
+							</div>
+						</div>
 
 
 
-    <!-- Footer -->
-    <footer>
-        <div id="contact" class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>Matease</strong>
-                    </h4>
-                    <p>Copenhagen
-                        <br>Denmark</p>
-                    <ul class="list-unstyled">
-                        <li><i class="fa fa-phone fa-fw"></i></li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:info@matease.dk">info@matease.dk</a>
-                        </li>
-                    </ul>
-                    <br>
-                    <ul class="list-inline">
-                        <li>
-                            <a href="https://www.facebook.com/MatEase-1830430917223334/"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-                        </li>
-                       
-                    </ul>
-                    <hr class="small">
-                    <p class="text-muted">Copyright &copy; Matease 2017</p>
-                    <p> <a href="disclaimer.html"> disclaimer</a> </p>
-                </div>
-            </div>
-        </div>
-        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
-    </footer>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+					</form>
+					<div style="display:none;" id="thankyou_message">
+						<h2><em>Thanks</em> for contacting us!
+							We will get back to you soon!</h2>
+						</div>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+					</div>
+					<!-- /.row -->
+				</div>
+				<!-- /.container -->
+			</section>
 
-    <!-- Custom Theme JavaScript -->
-    <script>
+
+
+			<!-- Footer -->
+			<footer>
+				<div id="contact" class="container">
+					<div class="row">
+						<div class="col-lg-10 col-lg-offset-1 text-center">
+							<h4><strong>Matease</strong>
+							</h4>
+							<p>Copenhagen
+								<br>Denmark</p>
+								<ul class="list-unstyled">
+									<li><i class="fa fa-phone fa-fw"></i></li>
+									<li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:info@matease.dk">info@matease.dk</a>
+									</li>
+								</ul>
+								<br>
+								<ul class="list-inline">
+									<li>
+										<a href="https://www.facebook.com/MatEase-1830430917223334/"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+									</li>
+									<li>
+										<a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+									</li>
+
+								</ul>
+								<hr class="small">
+								<p class="text-muted">Copyright &copy; Matease 2017</p>
+								<p> <a href="disclaimer.html"> disclaimer</a> </p>
+							</div>
+						</div>
+					</div>
+					<a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+				</footer>
+
+				<!-- jQuery -->
+				<script src="js/jquery.js"></script>
+
+				<!-- Bootstrap Core JavaScript -->
+				<script src="js/bootstrap.min.js"></script>
+
+				<!-- Custom Theme JavaScript -->
+				<script>
     // Closes the sidebar menu
     $("#menu-close").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
+    	e.preventDefault();
+    	$("#sidebar-wrapper").toggleClass("active");
     });
     // Opens the sidebar menu
     $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
+    	e.preventDefault();
+    	$("#sidebar-wrapper").toggleClass("active");
     });
     // Scrolls to the selected menu item on the page
     $(function() {
-        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
+    	$('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+    		if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+    			var target = $(this.hash);
+    			target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+    			if (target.length) {
+    				$('html,body').animate({
+    					scrollTop: target.offset().top
+    				}, 1000);
+    				return false;
+    			}
+    		}
+    	});
     });
     //#to-top button appears after scrolling
     var fixed = false;
     $(document).scroll(function() {
-        if ($(this).scrollTop() > 250) {
-            if (!fixed) {
-                fixed = true;
+    	if ($(this).scrollTop() > 250) {
+    		if (!fixed) {
+    			fixed = true;
                 // $('#to-top').css({position:'fixed', display:'block'});
                 $('#to-top').show("slow", function() {
-                    $('#to-top').css({
-                        position: 'fixed',
-                        display: 'block'
-                    });
+                	$('#to-top').css({
+                		position: 'fixed',
+                		display: 'block'
+                	});
                 });
             }
         } else {
-            if (fixed) {
-                fixed = false;
-                $('#to-top').hide("slow", function() {
-                    $('#to-top').css({
-                        display: 'none'
-                    });
-                });
-            }
+        	if (fixed) {
+        		fixed = false;
+        		$('#to-top').hide("slow", function() {
+        			$('#to-top').css({
+        				display: 'none'
+        			});
+        		});
+        	}
         }
     });
     // Disable Google Maps scrolling
     // See http://stackoverflow.com/a/25904582/1607849
     // Disable scroll zooming and bind back the click event
     var onMapMouseleaveHandler = function(event) {
-        var that = $(this);
-        that.on('click', onMapClickHandler);
-        that.off('mouseleave', onMapMouseleaveHandler);
-        that.find('iframe').css("pointer-events", "none");
+    	var that = $(this);
+    	that.on('click', onMapClickHandler);
+    	that.off('mouseleave', onMapMouseleaveHandler);
+    	that.find('iframe').css("pointer-events", "none");
     }
     var onMapClickHandler = function(event) {
-            var that = $(this);
+    	var that = $(this);
             // Disable the click handler until the user leaves the map area
             that.off('click', onMapClickHandler);
             // Enable scrolling zoom
@@ -319,11 +287,11 @@ Form Name
             that.on('mouseleave', onMapMouseleaveHandler);
         }
         // Enable map zooming with mouse scroll when the user clicks the map
-    $('.map').on('click', onMapClickHandler);
+        $('.map').on('click', onMapClickHandler);
 
     </script>
-     <script data-cfasync="false" type="text/javascript"
-  src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+    <script data-cfasync="false" type="text/javascript"
+    src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
 
 </body>
 
